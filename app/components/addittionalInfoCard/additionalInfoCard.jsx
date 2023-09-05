@@ -6,7 +6,9 @@ import { attributes } from "@/app/utils/attributesWeather";
 const AdditionalInfoCard = ({ forecast }) => (
   <div className={styles.adCard}>
     {attributes.map((attribute, i) => (
-      <div style={{ 
+      <div 
+      key={i}
+      style={{ 
         width: '100%', 
         borderBottom: i === attributes.length - 1 ? "none" : "1px solid var(--gray400)",
         paddingBottom: i === attributes.length - 1 ? "none" : "15px", 
