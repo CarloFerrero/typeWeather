@@ -1,0 +1,30 @@
+.adCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #1E1E29;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.adLineItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.item {
+    color: var(--gray400)
+}
+
+.itemWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
