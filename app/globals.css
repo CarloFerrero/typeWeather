@@ -42,8 +42,6 @@ a {
   text-decoration: none;
 }
 
-/*  write custom scrollbar */
-
 ::-webkit-scrollbar {
   width: 0.5rem;
 }
@@ -56,5 +54,3 @@ a {
   background: var(--gray600);
   border-radius: 0.5rem;
 }
-
-/*  write custom scrollbar */
